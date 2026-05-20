@@ -58,10 +58,88 @@ Finally, include context on this task and why it is realistic and representative
 
 <ins> Task context </ins>
 <br>
-This task is a realistic and appropriate assignment for a junior-level developer, as it focuses on implementing the core systems of a 3D arena survival shooter using a provided collection of visual, audio, and shader-based resources. It involves building foundational gameplay mechanics, including first-person player movement and camera controls, projectile and shooting systems, enemy spawning and pursuit behavior, combat and damage handling, score and survival tracking, pause and restart functionality, visual effect playback, and user interface management. The work requires applying essential programming, gameplay architecture, scene organization, and debugging skills to transform a clean project structure and supporting assets into a fully interactive combat experience while organizing reusable scenes, scripts, shaders, and gameplay systems within the engine. This type of assignment reflects common real-world development practices, where junior developers are responsible for implementing gameplay mechanics, enemy behavior, combat feedback, audio integration, and interface functionality within a larger production workflow. It could serve as part of a broader 3D project to develop a complete wave-based survival shooter framework with additional enemy types, weapon variations, progression systems, environmental arenas, advanced visual effects, and expanded gameplay mechanics. By implementing these gameplay systems and combat mechanics, the task establishes a flexible foundation to expand with additional content, wave difficulty, and balancing improvements.
+This task is a realistic and appropriate assignment for a junior-level developer, as it focuses on implementing the core systems of a 3D arena survival shooter using a provided collection of visual, audio, and shader-based resources. It involves building foundational gameplay mechanics, including first-person player movement and camera controls, projectile and shooting systems, enemy spawning and pursuit behavior, combat and damage handling, score and survival tracking, pause and restart functionality, visual effect playback, and user interface management. The work requires applying essential programming, gameplay architecture, scene organization, and debugging skills to transform a clean project structure and supporting assets into a fully interactive combat experience while organizing reusable scenes, scripts, shaders, and gameplay systems within the engine. This type of assignment reflects common real-world development practices, where junior developers are responsible for implementing gameplay mechanics, enemy behavior, combat feedback, audio integration, and interface functionality within a larger production workflow. It could serve as part of a broader 3D project to develop a complete wave-based survival shooter framework with additional enemy types, weapon variations, progression systems, environmental arenas, advanced visual effects, and expanded gameplay mechanics. By implementing these gameplay systems and combat mechanics, the task establishes a flexible foundation to expand with additional content, increasing wave difficulty, and balancing improvements.
 
 <ins> Rubric Items </ins>
 <br>
+1. All imported sprites and assets preserve their original visual quality with sharp rendering and no unintended scaling, blurring, or distortion.
+- Run the main scene and verify that the character assets, objects, and game elements render without scaling, blurring, or distortion.
+- Verifies that game assets retain their original appearance without scaling, blurring, or distortion caused by incorrect import settings.
 
+2. The player character can collide with the enemy bats and the ground.
+- Run the main scene and move the player character against the bats and the ground to confirm that the player collides with them.
+- Without proper collision, the player would pass through the ground and enemies, undermining the game's core survival challenge.
+
+3. The player's camera displays the gameplay in first-person view.
+- Run the main scene and move the player character around the game to confirm that the camera displays in first-person view.
+- The camera displays the game in first-person view to provide spatial awareness and consistent player control during movement.
+
+4. The score counter increases by 50 points when defeating the bats.
+- Run the main scene and have the player character shoot at the bats to observe that the score counter increases by 50 points.
+- Score is the only persistent measure of player skill in this game, providing the feedback loop and incentive to improve across runs.
+
+5. The game resets from the start when the player presses the R key.
+- Run the main scene, press the R key during gameplay to confirm that the game, sprites, score, and visual elements reset completely.
+- Without a quick reset, the player must close and relaunch the game between runs, breaking the rapid-retry loop that defines the genre.
+
+6. The game closes when pressing the Escape key during gameplay.
+- Run the main scene and press the Escape key during gameplay to confirm that the game application terminates completely.
+- Pressing Escape provides a simple and reliable way for the player to exit the game during gameplay and terminate sudden crashes.
+
+7. The game includes sound effects for shooting, hurting, and killing bats.
+- Run the main scene and observe distinct sound effects when the player character shoots, damages, and defeats the bat enemies.
+- The sound effects provide immediate feedback for combat and enemy defeat, reinforcing game actions and responsiveness.
+
+8. The game-over screen displays score information and a retry option.
+- Run the main scene, fail by falling off the ground, and observe a game-over screen displaying a high score value and a retry button.
+- The game-over screen informs the player that the run has ended, displays their results, and offers an option to start a new attempt.
+
+9. Pressing the P key displays a "PAUSED" label in the center, and pressing the same input again hides the label to resume the gameplay.
+- Run the main scene, press the P key to show a "PAUSED" label, then press the P key again to hide the label and resume gameplay.
+- Pausing lets players step away without losing progress, since interruptions would otherwise force them to abandon the game.
+
+10. The game stores and updates the player's highest achieved score.
+- Run the main scene, achieve a higher score than the previous best score, and confirm that the high score updates and saves correctly.
+- Persistent high scores provide long-term goals across sessions, preventing best score progression from resetting after every run.
+
+11. The background music continues to play when the game starts.
+- Run the main scene and observe that the background music begins playing and loops at the end of the music audio with proper volume.
+- Background music sets the atmosphere and provides continuous audio presence so the game does not feel silent during gameplay.
+
+12. The game includes a kills counter under the score counter, displaying the total number of bats defeated by the player character.
+- Run the main scene and defeat multiple bat enemies to confirm that the kill counter increases correctly for each defeated mob.
+- The kills counter tracks combat and provides immediate feedback on player performance throughout the run when killing enemies.
+
+13. The player character can move in all directions using the WASD keys.
+- Run the main scene and move the player character with the WASD keys to confirm that movement control functions in all directions.
+- WASD movement provides a consistent keyboard control scheme to allow the player to navigate the environment during gameplay.
+
+14. The player character can jump upward when pressing the Space key.
+- Run the main scene, then press the Space key to observe the player character jump upward to avoid enemies.
+- Jumping allows the player to traverse obstacles and avoid enemies, and adds vertical movement to improve navigation and gameplay.
+
+15. The player character can quickly sprint when pressing the Shift key.
+- Run the main scene, and then hold the Shift key while moving to observe the player character increase movement speed.
+- Sprinting provides a sudden increase in movement speed, allowing faster traversal and more dynamic gameplay pacing.
+
+16. The player character has a blue gun that can shoot bullets when pressing the left mouse button and follows the mouse cursor to aim.
+- Run the main scene, move the mouse cursor to aim, then press the left mouse button to observe the player character shoot at bats.
+- The weapon system allows the player to aim and shoot with the mouse, enabling direct and responsive control during combat.
+
+17. Purple bats continuously spawn from floating spawners, fly towards the player, and visually react to damage before dying after three hits.
+- Run the main scene and observe the bats spawning, pursuing the player, reacting to damage, and dying after taking three hits.
+- Enemy spawning and damage reactions create sustained gameplay pressure and communicate combat interactions during encounters.
+
+18. Pressing the 0 key resets the stored high score during gameplay.
+- Run the main scene, achieve a high score value, then press the 0 key to confirm that the stored high score resets correctly.
+- Resetting the high score allows players to clear previous records at any time and restart score progression without deleting any saves.
+
+19. A smoke explosion effect appears when a bat dies and when the player touches the kill zone below the ground.
+- Run the main scene, defeat a bat, then lose all player health to confirm that the smoke explosion effect appears in both events.
+- Explosion effects provide visual confirmation for enemy and player deaths, improving combat readability and gameplay feedback.
+
+20.
+- 
+- 
 <br>
 Godot - https://feather.openai.com/tasks/d0f7c6a3-3fcf-496b-8254-8cf4e3761d87/stage/prompt_creation - Awaiting response.
