@@ -3,7 +3,7 @@
 # Bat Swarm | Project Touchstone #
 [Your First 3D GAME From Zero in Godot 4 **Survivor Arena FPS**](https://www.youtube.com/watch?v=NJJNWGD25rg&t) by [GDQuest](https://www.youtube.com/@Gdquest) ([Discord](discord.gg/CHYVgar))
 
-
+This project is a beginner-friendly walkthrough for building a stylized 3D arena survival shooter in the Godot Engine, focusing on the core systems required for responsive first-person movement and fast-paced enemy combat encounters. It introduces and applies essential concepts, including node-based scene organization, physics-based character movement, mouse-controlled camera handling, enemy spawning systems, shooting mechanics, collision detection, combat feedback, score tracking, UI implementation, and game over and restart functionality. This tutorial also demonstrates important gameplay features, including implementing scalable enemy wave progression, managing enemy pursuit behavior and spawn timing, integrating audio and shader-driven visual effects for combat interactions, and structuring overall gameplay flow to create a cohesive and polished survival experience. The result is a fully playable arena shooter where players must survive increasingly difficult enemy waves while maintaining precise movement, combat awareness, and shooting accuracy to achieve higher scores and longer survival times. It also served as the foundation for completing a structured implementation task on Feather, with the project integrated into the broader development workflow supporting the Handshake AI Project Touchstone initiative.
 
 # Assets #
 [Bat Swarm Assets](https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/) by [GDQuest](https://www.gdquest.com/) ([Twitter](https://x.com/NathanGDQuest))
