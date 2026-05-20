@@ -6,11 +6,9 @@
 
 
 # Assets #
-[Bat Swarm Assets](https://www.gdquest.com/library/first_2d_game_godot4_vampire_survivor/) by [GDQuest](https://www.gdquest.com/) ([Twitter](https://x.com/NathanGDQuest))
+[Bat Swarm Assets](https://www.gdquest.com/library/first_3d_game_godot4_arena_fps/) by [GDQuest](https://www.gdquest.com/) ([Twitter](https://x.com/NathanGDQuest))
 
-![Sprite Asset](assets/characters/happy_boo/square_ref.png)
-![Sprite Asset](assets/pistol/pistol.png)
-![Sprite Asset](assets/characters/slime/slime_ref.png)
+![Sprite Asset](icon.png)
 
 # Create a Godot task #
 <ins> What application is this task for? </ins>
