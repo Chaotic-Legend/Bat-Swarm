@@ -142,4 +142,3 @@ This task is a realistic and appropriate assignment for a junior-level developer
 - 
 - 
 <br>
-Godot - https://feather.openai.com/tasks/d0f7c6a3-3fcf-496b-8254-8cf4e3761d87/stage/prompt_creation - Awaiting response.
