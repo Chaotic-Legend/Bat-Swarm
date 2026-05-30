@@ -1,4 +1,4 @@
-[![Static Badge](https://img.shields.io/badge/Godot%20Engine-4.6.2-blue?style=plastic&logo=godotengine)](https://godotengine.org/) ![GitHub top language](https://img.shields.io/github/languages/top/Chaotic-Legend/Bat-Swarm?logo=godotengine)
+[![Static Badge](https://img.shields.io/badge/Godot%20Engine-4.6.3-blue?style=plastic&logo=godotengine)](https://godotengine.org/) ![GitHub top language](https://img.shields.io/github/languages/top/Chaotic-Legend/Bat-Swarm?logo=godotengine)
 
 # Bat Swarm | Project Touchstone #
 [Your First 3D GAME From Zero in Godot 4 **Survivor Arena FPS**](https://www.youtube.com/watch?v=NJJNWGD25rg&t) by [GDQuest](https://www.youtube.com/@Gdquest) ([Discord](discord.gg/CHYVgar))
@@ -142,3 +142,4 @@ This task is a realistic and appropriate assignment for a junior-level developer
 - 
 - 
 <br>
+Godot - Full Vertical Slice (Game Prototype) - Finished prompt creation.
