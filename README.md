@@ -28,7 +28,22 @@ Reminder on the difference between reference and starting state files:
 
 <ins> Task prompt (ask the Employee) </ins>
 <br>
+We are beginning development of a modern 3D survival shooter game that emphasizes movement, combat, and score progression to create a clear and engaging gameplay experience. Your task is to design and implement a complete gameplay system centered around a player character defending against continuously spawning enemy bats within a floating arena environment. You should organize the player character, enemy behaviors, weapon systems, scoring mechanics, UI elements, environmental assets, and game states so that gameplay interactions, combat feedback, and progression systems behave consistently throughout play. The game system must prioritize responsiveness, clarity, and consistency by incorporating well-structured input handling, reliable collision detection, and a stable first-person camera system that provides clear visibility of the environment at all times. All imported 3D sprites, models, textures, UI elements, and environmental assets must render sharply and clearly without distortion, preserving strong visual quality throughout gameplay. The game environment should feature four green ground platforms connected by yellow bridges and include three hovering pink spawners displaying scrolling "SPAWNING" text positioned in three separate corners of the playable area. The completed game system must support the following behaviors and mechanics:
 
+- The player character can move using the WASD keys.
+- The player character can jump using the Space key.
+- The player character can run using the Shift key.
+- The player character uses a blue gun that follows the mouse cursor and fires bullets with the left mouse button.
+- Purple bats continuously spawn from hovering spawners and pursue the player character.
+- Enemy bats visually react to damage and are defeated after three successful hits, increasing the score by 50 points.
+- The game stores and updates the player's highest achieved score, and pressing the 0 key resets the stored high score.
+- A smoke explosion effect appears when a bat is defeated, and when the player dies after falling off the area.
+- Pressing the P key displays a centered "PAUSED" label, and pressing it again resumes gameplay.
+- Pressing the R key fully resets the game and restores all gameplay systems to their initial states.
+- Pressing the Escape key quickly closes the game application.
+- The game-over screen displays the player's score information and provides a retry option.
+
+Combat systems must reliably detect interactions between bullets, enemies, environmental boundaries, and player collision areas, ensuring correct damage calculations, score updates, and enemy removal behavior. Score and progression systems must accurately track points, kills, and high-score records while supporting score persistence and reset functionality. Audio systems must provide immediate event-driven feedback for combat interactions, player actions, enemy defeats, and continuous background music playback. Game state management must support pausing, restarting, game-over transitions, and complete gameplay resets without disrupting active systems. UI elements should dynamically update to reflect score progression, kill counts, high-score values, pause states, and game-over information while maintaining clear readability throughout gameplay. Environmental systems, including floating spawners, bridges, visual effects, and enemy spawning behaviors, should integrate seamlessly into the gameplay loop to create a cohesive combat experience. This structure must remain modular and extensible, supporting future expansion of enemy types, weapons, environments, and gameplay mechanics while preserving consistent controls, combat responsiveness, and state behavior across all scenarios.
 
 <ins> Which of the following best fits this task? </ins>
 <br>
