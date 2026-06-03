@@ -119,14 +119,14 @@ This task is a realistic and appropriate assignment for a junior-level developer
 - Jumping allows the player to traverse obstacles and avoid enemies, and adds vertical movement to improve navigation and gameplay.
 
 15. The player character can quickly sprint when pressing the Shift key.
-- Run the main scene, and then hold the Shift key while moving to observe the player character increase movement speed.
+- Run the main scene, then hold the Shift key while moving to observe the player character increase movement speed.
 - Sprinting provides a sudden increase in movement speed, allowing faster traversal and more dynamic gameplay pacing.
 
 16. The player character has a blue gun that can shoot bullets when pressing the left mouse button and follows the mouse cursor to aim.
 - Run the main scene, move the mouse cursor to aim, then press the left mouse button to observe the player character shoot at bats.
 - The weapon system allows the player to aim and shoot with the mouse, enabling direct and responsive control during combat.
 
-17. Purple bats continuously spawn from floating spawners, fly towards the player, and visually react to damage before dying after three hits.
+17. Purple bats continuously spawn from hovering spawners, fly towards the player, and visually react to damage before dying after three hits.
 - Run the main scene and observe the bats spawning, pursuing the player, reacting to damage, and dying after taking three hits.
 - Enemy spawning and damage reactions create sustained gameplay pressure and communicate combat interactions during encounters.
 
@@ -134,12 +134,12 @@ This task is a realistic and appropriate assignment for a junior-level developer
 - Run the main scene, achieve a high score value, then press the 0 key to confirm that the stored high score resets correctly.
 - Resetting the high score allows players to clear previous records at any time and restart score progression without deleting any saves.
 
-19. A smoke explosion effect appears when a bat dies and when the player touches the kill zone below the ground.
+19. A smoke explosion effect appears when a bat dies and when the player touches the kill zone below the ground environment.
 - Run the main scene, defeat a bat, then lose all player health to confirm that the smoke explosion effect appears in both events.
 - Explosion effects provide visual confirmation for enemy and player deaths, improving combat readability and gameplay feedback.
 
-20.
-- 
-- 
+20. The environment includes three hovering pink spawners displaying scrolling "SPAWNING" text, positioned in separate corners of the area.
+- Run the main scene and verify that three hovering pink spawners display scrolling "SPAWNING" text positioned around the area.
+- The spawners identify enemy spawn locations and provide visual landmarks that improve environmental readability during gameplay.
 <br>
 Godot - Full Vertical Slice (Game Prototype) - Finished prompt creation.
