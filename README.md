@@ -32,7 +32,7 @@ We are beginning development of a modern 3D survival shooter game that emphasize
 
 - The player character can move using the WASD keys.
 - The player character can jump using the Space key.
-- The player character can run using the Shift key.
+- The player character can sprint with the Shift key.
 - The player character uses a blue gun that follows the cursor and fires with the left mouse button.
 - Purple bats continuously spawn from hovering spawners and pursue the player character in the area.
 - Enemy bats display damage feedback, require three hits to defeat, and grant 50 points when eliminated.
