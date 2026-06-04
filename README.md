@@ -33,15 +33,15 @@ We are beginning development of a modern 3D survival shooter game that emphasize
 - The player character can move using the WASD keys.
 - The player character can jump using the Space key.
 - The player character can run using the Shift key.
-- The player character uses a blue gun that follows the mouse and fires with the left mouse button.
-- Purple bats continuously spawn from hovering spawners and pursue the player character.
+- The player character uses a blue gun that follows the cursor and fires with the left mouse button.
+- Purple bats continuously spawn from hovering spawners and pursue the player character in the area.
 - Enemy bats display damage feedback, require three hits to defeat, and grant 50 points when eliminated.
-- The game tracks and updates the player's highest score, and pressing the 0 key resets it.
-- A smoke explosion effect appears when a bat is defeated, and when the player dies after falling off the area.
+- The game tracks and updates the player's highest score, and pressing the 0 key resets it back to zero.
+- A smoke explosion effect appears when a bat is defeated, and when the player falls below the ground.
+- The game-over screen displays the player's score information and provides a retry button.
 - Pressing the P key displays a centered "PAUSED" label, and pressing it again resumes gameplay.
 - Pressing the R key fully resets the game and restores all gameplay systems to their initial states.
 - Pressing the Escape key quickly closes the game application.
-- The game-over screen displays the player's score information and provides a retry option.
 
 Combat systems must reliably detect interactions between bullets, enemies, environmental boundaries, and player collision areas, ensuring correct damage calculations, score updates, and enemy removal behavior. Score and progression systems must accurately track points, kills, and high-score records while supporting score persistence and reset functionality. Audio systems must provide immediate event-driven feedback for combat interactions, player actions, enemy defeats, and continuous background music playback. Game state management must support pausing, restarting, game-over transitions, and complete gameplay resets without disrupting active systems. UI elements should dynamically update to reflect score progression, kill counts, high-score values, pause states, and game-over information while maintaining clear readability throughout gameplay. Environmental systems, including floating spawners, bridges, visual effects, and enemy spawning behaviors, should integrate seamlessly into the gameplay loop to create a cohesive combat experience. This structure must remain modular and extensible, supporting future expansion of enemy types, weapons, environments, and gameplay mechanics while preserving consistent controls, combat responsiveness, and state behavior across all scenarios.
 
