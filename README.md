@@ -35,7 +35,7 @@ We are beginning development of a modern 3D survival shooter game that emphasize
 - The player character can run using the Shift key.
 - The player character uses a blue gun that follows the mouse cursor and fires bullets with the left mouse button.
 - Purple bats continuously spawn from hovering spawners and pursue the player character.
-- Enemy bats visually react to damage and are defeated after three successful hits, increasing the score by 50 points.
+- Enemy bats visually react to damage and are defeated after three hits, increasing the score by 50 points.
 - The game stores and updates the player's highest achieved score, and pressing the 0 key resets the stored high score.
 - A smoke explosion effect appears when a bat is defeated, and when the player dies after falling off the area.
 - Pressing the P key displays a centered "PAUSED" label, and pressing it again resumes gameplay.
