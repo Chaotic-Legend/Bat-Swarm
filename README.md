@@ -33,10 +33,10 @@ We are beginning development of a modern 3D survival shooter game that emphasize
 - The player character can move using the WASD keys.
 - The player character can jump using the Space key.
 - The player character can run using the Shift key.
-- The player character uses a blue gun that follows the mouse cursor and fires bullets with the left mouse button.
+- The player character uses a blue gun that follows the mouse and fires with the left mouse button.
 - Purple bats continuously spawn from hovering spawners and pursue the player character.
-- Enemy bats visually react to damage and are defeated after three hits, increasing the score by 50 points.
-- The game stores and updates the player's highest score, and pressing the 0 key resets it.
+- Enemy bats display damage feedback, require three hits to defeat, and grant 50 points when eliminated.
+- The game tracks and updates the player's highest score, and pressing the 0 key resets it.
 - A smoke explosion effect appears when a bat is defeated, and when the player dies after falling off the area.
 - Pressing the P key displays a centered "PAUSED" label, and pressing it again resumes gameplay.
 - Pressing the R key fully resets the game and restores all gameplay systems to their initial states.
