@@ -38,7 +38,7 @@ We are beginning development of a modern 3D survival shooter game that emphasize
 - Enemy bats display damage feedback, require three hits to defeat, and grant 50 points when eliminated.
 - The game tracks and updates the player's highest score, and pressing the 0 key resets it back to zero.
 - A smoke explosion effect appears when a bat is defeated, and when the player falls below the ground.
-- The game-over screen displays the player's score information and provides a retry button.
+- The game-over screen displays the player's high score information and provides a restart button.
 - Pressing the P key displays a centered "PAUSED" label, and pressing it again resumes gameplay.
 - Pressing the R key fully resets the game and restores all gameplay systems to their initial states.
 - Pressing the Escape key quickly closes the game application.
